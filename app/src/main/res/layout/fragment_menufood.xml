@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout_menufood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3959E"
+        android:padding="5dp"
+        app:tabIndicatorColor="#59C8EA"
+        app:tabIndicatorHeight="4dp"
+        app:tabMode="scrollable">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <RelativeLayout
+        android:background="#C1BBD6"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tablayout_menufood"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="3dp"
+            android:text="Tên Món Ăn"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:padding="3dp"
+            android:text="Giá"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/title"
+        android:id="@+id/viewpager_menufood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/addfood"
+        android:layout_marginBottom="5dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/addfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Thêm Món Ăn"></Button>
+
+</RelativeLayout>

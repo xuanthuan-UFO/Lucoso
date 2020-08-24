@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126382873921",
+    "firebase_url": "https://lucoso-d4477.firebaseio.com",
+    "project_id": "lucoso-d4477",
+    "storage_bucket": "lucoso-d4477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126382873921:android:e7bc032dae657dbbc055c0",
+        "android_client_info": {
+          "package_name": "com.xuanthuan.lucoso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126382873921-ji320jflb8g7mca6pi2c7bkpol878k8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xuanthuan.lucoso",
+            "certificate_hash": "0d8b34cfdc4945d794a7a4609a3d90af0eb2a940"
+          }
+        },
+        {
+          "client_id": "126382873921-96914qokfff6svct49mc81jvc042iulq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6tL0jXrIJrRDD3KRNcxOaqM3LOIUzJrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126382873921-96914qokfff6svct49mc81jvc042iulq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

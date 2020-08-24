@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lucoso</string>
+    <string name="open_navi">Open</string>
+    <string name="close_navi">Close</string>
+</resources>
